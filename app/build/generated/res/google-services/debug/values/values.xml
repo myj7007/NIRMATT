@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">623615666666-dbf9542741vprnlrofb06717dajo0qsc.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://nirma-bla.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">623615666666</string>
+    <string name="google_api_key" translatable="false">AIzaSyBNmS-lJmWOF6L7HzYlwqYqO69NY8WbmzI</string>
+    <string name="google_app_id" translatable="false">1:623615666666:android:56bcf4cc95fc331b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBNmS-lJmWOF6L7HzYlwqYqO69NY8WbmzI</string>
+    <string name="google_storage_bucket" translatable="false">nirma-bla.appspot.com</string>
+    <string name="project_id" translatable="false">nirma-bla</string>
+</resources>

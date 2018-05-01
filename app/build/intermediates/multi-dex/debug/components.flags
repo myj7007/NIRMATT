@@ -1,0 +1,99 @@
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-firestore-11.4.2.aar\9ad6ecbd2263286ef18e70b8d08e21ce\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\006e4769d437c9cb239e6870eea19e61\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.6.0.aar\24cf0ababcad7688d1e38f9b7229efa0\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\aed9891f3c408f37d70ba20358940df7\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\833989b704bee31635fb102ff9df21f2\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\9d4df98d6ae5e59b34e978d27f7c8714\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\8f31fa555e82d6c5b5d23d9051e13b16\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\97f3ce716b822439225962ddb607e948\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-auth-11.4.2.aar\eb33a085b60351512b398ce723591de3\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-database-11.4.2.aar\da2833d41dbc95f46b85921f470b9a5e\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-storage-11.4.2.aar\da33ea882c56ec33ee6a8a0eac361990\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\107a7022b99b8d20a727024f1fc09162\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\95aa68c42baaf59bcaae032950b9d4e0\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.4.2.aar\c7bcf58b74a4fae5e7f22152c4e50267\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-11.4.2.aar\dd57c4a9d01e8b992618b344d68c06b9\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.4.2.aar\a48481537428a70f8a5b0795d3379d32\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.4.2.aar\c6d2823901fe702755f07654ff781ab7\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-common-11.4.2.aar\3d070c9517ed65640ab5a0d1ac444d35\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.2.aar\54ae3dcfc2dc672ee0b66cdf217bd942\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.2.aar\b126e389d61d2817e9fbfbb33c91cbf4\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-11.4.2.aar\456f752c53ae232ae866a5627bc22b95\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.2.aar\b631c2332425a1ee5b70748f78cc01fe\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.2\20f6463eb19ac61960c5d91a094c2f4f0727dc2e\okhttp-2.7.2.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\20.0\89507701249388e1ed5ddcf8c41f4ce1be7831ef\guava-20.0.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\a21cb7724d808e554572e0ccbad00a30\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\8a6c21516ee5c49c90a7ce30eb4b957f\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\f92cd7af6dda27dfd9645dae8f971177\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-auth-license-11.4.2.aar\acde3404ad6be38b3082ca0ad72be634\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-database-license-11.4.2.aar\db90032c70dccbd76c0d6c52e4a7d706\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-storage-license-11.4.2.aar\65f170295af454c7ebe559055a0b332d\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\08eee549774be063bdc0905d52e2f26a\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c80690b5725f95d667d19efbe463f0b7\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\09830cc1dad6e76a6c6cb0a397de4b4e\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\597e2ca0e1537666affeba67830aae73\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\06fda70e39bc27ec77de49b49386e33d\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\d6991eb5c642280152212810a5685de7\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\a55da1cbb2550adf86ccf59820e79f0b\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.4.2.aar\4071cc4feb43d2f2397d15a6f16e0fbf\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.4.2.aar\2e748cc8cd33998ef0f216fa41efdcb7\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.4.2.aar\eb473990b16d779f5b87f0178b222b74\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.4.2.aar\2d70809b55b834187a8158f92e984933\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.4.2.aar\e41cbc52d333e0c4a181617bff77b3fc\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-license-11.4.2.aar\2dd55515a37d54d761b4a992f8641890\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-storage-common-license-11.4.2.aar\75cf09aadf72852a8db8c3f607ddcd04\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0b75c9ddcae62772d60d5efe70bc9eeb\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\590e2774f201cb38866c3d646bf115a6\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fbe90b592544f22d9ace4bcd0484b456\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1f3f3492495919d841440fc88305ab1f\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\c39ac1fa43f9598f2a47219913065f5d\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\a299570508deed8ce7cb61d212782c89\jars\classes.jar'(**.class)
+-injars 'C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\build\intermediates\classes\debug'(**.class)
+-outjars 'C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'C:\Users\DELL\AppData\Local\Android\Sdk\build-tools\26.0.2\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:26
+-keep class android.support.multidex.MultiDexApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

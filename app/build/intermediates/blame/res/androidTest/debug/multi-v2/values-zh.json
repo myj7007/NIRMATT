@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\DELL\\Nirmatt\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.6.0.aar\\24cf0ababcad7688d1e38f9b7229efa0\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,169,232",
+                        "endColumns": "51,61,62,64",
+                        "endOffsets": "102,164,227,292"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\DELL\\AndroidStudioProjects\\Nirmatt\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\android-image-cropper-2.6.0.aar\\24cf0ababcad7688d1e38f9b7229efa0\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,107,169,232",
+                        "endColumns": "51,61,62,64",
+                        "endOffsets": "102,164,227,292"
+                    }
+                }
+            ]
+        }
+    ]
+}

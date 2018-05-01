@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "623615666666",
+    "firebase_url": "https://nirma-bla.firebaseio.com",
+    "project_id": "nirma-bla",
+    "storage_bucket": "nirma-bla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623615666666:android:56bcf4cc95fc331b",
+        "android_client_info": {
+          "package_name": "com.example.dell.nirmatt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623615666666-55blugsel2sp1907rg2fsd3bqkli8fps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.nirmatt",
+            "certificate_hash": "4dea4a9a1ee7699fa6ddede7a1a17d67162f8312"
+          }
+        },
+        {
+          "client_id": "623615666666-dbf9542741vprnlrofb06717dajo0qsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNmS-lJmWOF6L7HzYlwqYqO69NY8WbmzI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623615666666-dbf9542741vprnlrofb06717dajo0qsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
