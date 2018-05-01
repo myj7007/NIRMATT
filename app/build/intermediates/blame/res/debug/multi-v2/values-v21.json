@@ -4,22 +4,22 @@
             "outputFile": "C:\\Users\\DELL\\AndroidStudioProjects\\Nirmatt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\9d4df98d6ae5e59b34e978d27f7c8714\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\6063fdf0b2fd726ce68431d44edc3b3e\\res\\values-v21\\values-v21.xml",
                     "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,266",
-                        "endLines": "4,5",
-                        "endColumns": "12,96",
-                        "endOffsets": "261,358"
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
                     },
                     "to": {
-                        "startLines": "164,228",
-                        "startColumns": "4,4",
-                        "startOffsets": "12574,17124",
-                        "endLines": "166,228",
-                        "endColumns": "12,96",
-                        "endOffsets": "12780,17216"
+                        "startLines": "269,272,276,280",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19812,19980,20269,20565",
+                        "endLines": "271,274,278,282",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "19975,20138,20432,20727"
                     }
                 },
                 {
@@ -42,6 +42,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\94eec9e88e2cb7bd1cd74f7d5f3e1276\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,266",
+                        "endLines": "4,5",
+                        "endColumns": "12,96",
+                        "endOffsets": "261,358"
+                    },
+                    "to": {
+                        "startLines": "164,228",
+                        "startColumns": "4,4",
+                        "startOffsets": "12574,17124",
+                        "endLines": "166,228",
+                        "endColumns": "12,96",
+                        "endOffsets": "12780,17216"
+                    }
+                },
+                {
                     "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\a55da1cbb2550adf86ccf59820e79f0b\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
@@ -58,25 +77,6 @@
                         "endLines": "2,3,4,5,267,268,275,279,285,290",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
                         "endOffsets": "154,218,285,349,19681,19807,20264,20560,20899,21237"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\09830cc1dad6e76a6c6cb0a397de4b4e\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,5,8,11",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,223,386,554",
-                        "endLines": "4,7,10,13",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "218,381,549,716"
-                    },
-                    "to": {
-                        "startLines": "269,272,276,280",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "19812,19980,20269,20565",
-                        "endLines": "271,274,278,282",
-                        "endColumns": "12,12,12,12",
-                        "endOffsets": "19975,20138,20432,20727"
                     }
                 }
             ]

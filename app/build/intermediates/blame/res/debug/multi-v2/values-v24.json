@@ -36,7 +36,7 @@
             "outputFile": "C:\\Users\\DELL\\AndroidStudioProjects\\Nirmatt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.0.aar\\09830cc1dad6e76a6c6cb0a397de4b4e\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\6063fdf0b2fd726ce68431d44edc3b3e\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

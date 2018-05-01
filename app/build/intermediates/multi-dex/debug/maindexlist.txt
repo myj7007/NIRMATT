@@ -667,8 +667,8 @@ com/google/common/net/InetAddresses.class
 io/grpc/zzcc.class
 android/support/v4/app/ActionBarDrawerToggle.class
 com/google/common/cache/LoadingCache.class
-android/support/v4/media/MediaBrowserServiceCompat$ResultFlags.class
 android/support/v4/app/DialogFragment$DialogStyle.class
+android/support/v4/media/MediaBrowserServiceCompat$ResultFlags.class
 com/google/common/hash/package-info.class
 com/google/android/gms/common/zzp.class
 android/support/v4/app/FragmentActivity.class

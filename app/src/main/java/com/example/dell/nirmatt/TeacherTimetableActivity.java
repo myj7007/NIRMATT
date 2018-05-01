@@ -67,21 +67,24 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
         recyclerView = findViewById(R.id.rcview1);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        listItems = new ArrayList<>();
+        /*listItems = new ArrayList<>();
         for(int i=0;i<15;i++){
             ListItem listItem = new ListItem(
                     "Roll No." + (i+1)
             );
             listItems.add(listItem);
         }
-        adapter = new MyAdapter(listItems,this);
+        adapter = new MyAdapter(listItems,this);*/
         recyclerView.setAdapter(adapter);
 
         mAuth=FirebaseAuth.getInstance();
         currentUser=mAuth.getCurrentUser();
         Intent intent = getIntent();
-        String day = intent.getExtras().getString("day");
-        Toast.makeText(TeacherTimetableActivity.this,day,Toast.LENGTH_LONG).show();
+        String id = intent.getExtras().getString("id");
+        String path = intent.getExtras().getString("path");
+        adapter=new MyAdapter(TeacherTimetableActivity.this,id,path);
+        recyclerView.setAdapter(adapter);
+        /*Toast.makeText(TeacherTimetableActivity.this,day,Toast.LENGTH_LONG).show();
         if(day.equals("Monday")){
             path="mon";
         }
@@ -113,12 +116,12 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
                     //String[] stringArray = Arrays.copyOf(obj, 3, String[].class);
                     //timetable obj1=(timetable)obj;
                     /*timetable obj1=doc.toObject(timetable.class);
-                    String slot=obj1.getClas();*/
+                    String slot=obj1.getClas();
                     Toast.makeText(TeacherTimetableActivity.this,slot,Toast.LENGTH_LONG).show();
 
                 }
             }
-        });
+        });*/
     }
 
     @Override
@@ -126,5 +129,6 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
 
         s_rollno=i_rollno;
         s_check=check;
+        //Toast.makeText(TeacherTimetableActivity.this,s_rollno.toString()+s_check.toString(),Toast.LENGTH_LONG).show();
     }
 }

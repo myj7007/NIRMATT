@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.google.firebase:firebase-firestore:11.4.2] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-firestore-11.4.2.aar\9ad6ecbd2263286ef18e70b8d08e21ce\AndroidManifest.xml:2:1-4:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\006e4769d437c9cb239e6870eea19e61\AndroidManifest.xml:2:1-11:12
 MERGED from [com.theartofdev.edmodo:android-image-cropper:2.6.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\android-image-cropper-2.6.0.aar\24cf0ababcad7688d1e38f9b7229efa0\AndroidManifest.xml:2:1-12:12
@@ -52,20 +52,20 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\DELL\.gradle\caches\
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.4.2.aar\590e2774f201cb38866c3d646bf115a6\AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1f3f3492495919d841440fc88305ab1f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.4.2.aar\c39ac1fa43f9598f2a47219913065f5d\AndroidManifest.xml:2:1-6:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-43:12
+		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:2:11-69
@@ -78,7 +78,7 @@ ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:8:5-41:19
+ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:8:5-42:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\006e4769d437c9cb239e6870eea19e61\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\006e4769d437c9cb239e6870eea19e61\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:11.4.2] C:\Users\DELL\.gradle\caches\transforms-1\files-1.1\firebase-core-11.4.2.aar\aed9891f3c408f37d70ba20358940df7\AndroidManifest.xml:5:5-20
@@ -196,9 +196,13 @@ ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:39:19-59
 activity#com.example.dell.nirmatt.ViewattendanceActivity
-ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:40:9-69
+ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:40:9-60
 	android:name
 		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:40:19-57
+activity#com.example.dell.nirmatt.SlotActivity
+ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:41:9-59
+	android:name
+		ADDED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml:41:19-47
 uses-sdk
 INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DELL\AndroidStudioProjects\Nirmatt\app\src\main\AndroidManifest.xml

@@ -37,7 +37,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".DatePickerActivity" />
         <activity android:name=".TeacherTimetableActivity" />
-        <activity android:name=".ViewattendanceActivity"></activity>
+        <activity android:name=".ViewattendanceActivity" />
+        <activity android:name=".SlotActivity"></activity>
     </application>
 
 </manifest>
