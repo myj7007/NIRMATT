@@ -30,9 +30,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
     String timeslot,clas,sub;
     public ArrayList i_rollno = new ArrayList();
     public ArrayList check = new ArrayList();
+    public ArrayList id1=new ArrayList();
 
     public interface Adder{
-        void Add(ArrayList i_rollno, ArrayList check);
+        void Add(ArrayList i_rollno, ArrayList check, ArrayList id1);
     }
     private Adder adder=new TeacherTimetableActivity();
 
@@ -73,6 +74,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
                                     public void onSuccess(QuerySnapshot documentSnapshots) {
                                         for (DocumentSnapshot snapshot : documentSnapshots) {
                                             i_rollno.add(snapshot.get("rollno"));
+                                            id1.add(snapshot.getId());
                                         }
                                         notifyDataSetChanged();
                                         check=new ArrayList(getItemCount());
@@ -101,12 +103,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
         //ListItem listItem = listitems.get(position);
 
         holder.textviewrollno.setText(i_rollno.get(position).toString());
+        holder.id=id1.get(position).toString();
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 ((ViewHolder)holder).mcheckbox.toggle();
                 check.set(position,((ViewHolder)holder).mcheckbox.isChecked());
-                adder.Add(i_rollno,check);
+                adder.Add(i_rollno,check,id1);
             }
         });
 
@@ -122,6 +125,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder>{
 
         public TextView textviewrollno;
         public CheckBox mcheckbox;
+        String id;
 
         public ViewHolder(View itemView) {
             super(itemView);

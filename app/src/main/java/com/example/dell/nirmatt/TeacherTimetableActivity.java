@@ -33,6 +33,7 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
 
     static ArrayList s_rollno;
     static ArrayList s_check;
+    static ArrayList id1;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     private FirebaseAuth mAuth;
     private android.support.v7.widget.Toolbar mToolbar;
@@ -122,13 +123,16 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
                 }
             }
         });*/
+
+
     }
 
     @Override
-    public void Add(ArrayList i_rollno, ArrayList check) {
+    public void Add(ArrayList i_rollno, ArrayList check, ArrayList id2) {
 
         s_rollno=i_rollno;
         s_check=check;
+        id1=id2;
         //Toast.makeText(TeacherTimetableActivity.this,s_rollno.toString()+s_check.toString(),Toast.LENGTH_LONG).show();
     }
 }
