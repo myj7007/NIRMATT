@@ -59,6 +59,7 @@
         <activity android:name="com.example.dell.nirmatt.DatePickerActivity" />
         <activity android:name="com.example.dell.nirmatt.TeacherTimetableActivity" />
         <activity android:name="com.example.dell.nirmatt.ViewattendanceActivity" />
+        <activity android:name="com.example.dell.nirmatt.SlotActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

@@ -102,7 +102,7 @@ public class DatePickerActivity extends AppCompatActivity {
         DateFormat format2=new SimpleDateFormat("EEEE");
         String finalDay=format2.format(dt1);
 
-        Intent i = new Intent(DatePickerActivity.this,TeacherTimetableActivity.class);
+        Intent i = new Intent(DatePickerActivity.this,SlotActivity.class);
         i.putExtra("day", finalDay);
         startActivity(i);
 
