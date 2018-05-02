@@ -27,14 +27,14 @@ public class ViewattendanceActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rcview2);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        listItems = new ArrayList<>();
+        /*listItems = new ArrayList<>();
         for(int i=0;i<6;i++){
             ListAttendance listItem = new ListAttendance(
-                    "Subject " + (i+1)
+                    "Subject " + (i+1),0,0
             );
             listItems.add(listItem);
-        }
-        adapter = new MyAdapter2(listItems,this);
+        }*/
+        adapter = new MyAdapter2(ViewattendanceActivity.this);
         recyclerView.setAdapter(adapter);
 
     }
