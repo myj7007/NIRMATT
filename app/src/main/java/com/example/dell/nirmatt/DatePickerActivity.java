@@ -29,12 +29,20 @@ public class DatePickerActivity extends AppCompatActivity {
     private TextView dateView;
     private int year, month, day;
     public String date;
+    private android.support.v7.widget.Toolbar mToolbar;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_date_picker);
+
+        //datePicker.setMaxDate(System.currentTimeMillis()-1000);
+
+        mToolbar=findViewById(R.id.mToolbar);
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setTitle("Select Date");
+
         dateView = (TextView) findViewById(R.id.text_date);
         calendar = Calendar.getInstance();
         year = calendar.get(Calendar.YEAR);
@@ -62,6 +70,7 @@ public class DatePickerActivity extends AppCompatActivity {
     protected Dialog onCreateDialog(int id) {
         // TODO Auto-generated method stub
         if (id == 999) {
+            //datePicker.setMaxDate(System.currentTimeMillis()-1000);
             return new DatePickerDialog(this,
                     myDateListener, year, month, day);
         }

@@ -34,6 +34,7 @@ public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.ViewHolder> {
     ArrayList a3=new ArrayList();
     ArrayList a4=new ArrayList();
     Long total;
+    String f;
 
     private Context context;
 
@@ -53,8 +54,8 @@ public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.ViewHolder> {
                     public void onSuccess(QuerySnapshot documentSnapshots) {
                         for (DocumentSnapshot documentSnapshot : documentSnapshots) {
                             a1.add(documentSnapshot.getId());
-                            a3.add(documentSnapshot.get("Absent"));
-                            a4.add(documentSnapshot.get("Present"));
+                            a3.add(documentSnapshot.get("absent"));
+                            a4.add(documentSnapshot.get("present"));
                         }
                         notifyDataSetChanged();
                     }
@@ -83,14 +84,16 @@ public class MyAdapter2 extends RecyclerView.Adapter<MyAdapter2.ViewHolder> {
         holder.a3.setText(a3.get(position).toString());
         holder.a4.setText(a4.get(position).toString());
         total=((long) a3.get(position))+ ((long) a4.get(position));
-        total= ((long) a4.get(position))/total;
-        holder.a2.setText (total.toString());
+        total= ((long) a4.get(position))/total*100;
+        f=total.toString();
+        f=f+"%";
+        holder.a2.setText (f);
 
     }
 
     @Override
     public int getItemCount() {
-        return listAttendances.size();
+        return a1.size();
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder{

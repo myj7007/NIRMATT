@@ -25,10 +25,14 @@ public class LoginActivity extends AppCompatActivity {
     private Button nloginbtn;
     private FirebaseAuth mAuth;
     private ProgressDialog loginprogress;
+    private Toolbar mToolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        mToolbar = findViewById(R.id.mToolbar);
+        setSupportActionBar(mToolbar);
+        getSupportActionBar().setTitle("Login");
         nemail=findViewById(R.id.login_email);
         mAuth = FirebaseAuth.getInstance();
         loginprogress = new ProgressDialog(this);

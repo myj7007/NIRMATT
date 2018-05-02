@@ -5,14 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.dell.nirmatt.DatePickerActivity">
+    <include
+        android:id="@+id/mToolbar"
+        layout="@layout/toolbar" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/mToolbar"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="170dp"
         android:onClick="setDate"
         android:text="@string/select_date" />
 
@@ -22,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="49dp"
+        android:layout_marginTop="25dp"
         android:text="@string/date"
         android:textSize="22sp" />
 

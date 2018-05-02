@@ -13,6 +13,7 @@ import android.widget.Toolbar;
 
 import com.example.dell.nirmatt.DatePickerActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -34,14 +35,17 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
     static ArrayList s_rollno;
     static ArrayList s_check;
     static ArrayList id1;
+    int i;
+    int j=0;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     private FirebaseAuth mAuth;
     private android.support.v7.widget.Toolbar mToolbar;
     FirebaseUser currentUser;
-    String path;
+    String sub;
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<ListItem> listItems;
+    long absent,present;
 
 
 
@@ -55,15 +59,7 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
         setSupportActionBar(mToolbar);
         getSupportActionBar().setTitle("Attendance Sheet");
 
-        Next.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                Intent I = new Intent(TeacherTimetableActivity.this,DatePickerActivity.class);
-                startActivity(I);
-                finish();
-            }
-        });
 
         recyclerView = findViewById(R.id.rcview1);
         recyclerView.setHasFixedSize(true);
@@ -80,9 +76,11 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
 
         mAuth=FirebaseAuth.getInstance();
         currentUser=mAuth.getCurrentUser();
+        currentUser=FirebaseAuth.getInstance().getCurrentUser();
+        final String uid=currentUser.getUid();
         Intent intent = getIntent();
-        String id = intent.getExtras().getString("id");
-        String path = intent.getExtras().getString("path");
+        final String id = intent.getExtras().getString("id");
+        final String path = intent.getExtras().getString("path");
         adapter=new MyAdapter(TeacherTimetableActivity.this,id,path);
         recyclerView.setAdapter(adapter);
         /*Toast.makeText(TeacherTimetableActivity.this,day,Toast.LENGTH_LONG).show();
@@ -123,6 +121,62 @@ public class TeacherTimetableActivity extends AppCompatActivity implements MyAda
                 }
             }
         });*/
+
+        db.collection("/faculty").document(uid).collection("/time_table").document(path).collection("/slot").document(id)
+                .get()
+                .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+                    @Override
+                    public void onSuccess(DocumentSnapshot documentSnapshot) {
+                        sub=documentSnapshot.get("subject").toString();
+                    }
+                });
+        Next.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                for(i=0;i<id1.size();i++){
+                    db.collection("/user").document(id1.get(i).toString()).collection("/subject").document(sub)
+                            .get()
+                            .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
+                                @Override
+                                public void onSuccess(DocumentSnapshot documentSnapshot) {
+                                    absent= ((long) documentSnapshot.get("absent"));
+                                    present= ((long) documentSnapshot.get("present"));
+                                    Map<String, Object> m = new HashMap<>();
+                                    if(s_check.get(j).toString().equals("true")){
+                                        m.put("present",present+1);
+                                        m.put("absent",absent);
+                                    }
+                                    else{
+                                        m.put("present",present);
+                                        m.put("absent",absent+1);
+                                    }
+                                    db.collection("/user").document(id1.get(j).toString()).collection("/subject").document(sub)
+                                            .set(m)
+                                            .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                                @Override
+                                                public void onSuccess(Void aVoid) {
+                                                    //Toast.makeText(TeacherTimetableActivity.this,"Successful",Toast.LENGTH_SHORT).show();
+                                                }
+                                            });
+                                    j++;
+                                }
+
+                            });
+
+
+
+                }
+                Toast.makeText(TeacherTimetableActivity.this,"Successful",Toast.LENGTH_SHORT).show();
+
+
+                Intent I = new Intent(TeacherTimetableActivity.this,DatePickerActivity.class);
+                startActivity(I);
+                finish();
+                finish();
+            }
+        });
 
 
     }

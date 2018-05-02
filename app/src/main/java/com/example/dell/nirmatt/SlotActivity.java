@@ -30,6 +30,8 @@ public class SlotActivity extends AppCompatActivity {
         setSupportActionBar(mToolbar);
         getSupportActionBar().setTitle("Select Slot");
 
+
+
         recyclerView = findViewById(R.id.rcview3);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));

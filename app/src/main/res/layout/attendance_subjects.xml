@@ -20,17 +20,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="DAA"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
                 android:textSize="24sp" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/textView18"
                 android:layout_alignLeft="@+id/textView16"
-                android:layout_marginTop="20dp"
+                android:layout_alignTop="@+id/textView18"
                 android:layout_marginLeft="25dp"
-                android:text="Absent" />
+                android:layout_marginTop="20dp"
+                android:text="Absent"
+                android:textColor="?attr/colorError"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView18"
@@ -53,30 +57,41 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:layout_marginTop="20dp"
                 android:layout_alignTop="@+id/textView18"
                 android:layout_marginEnd="37dp"
                 android:layout_marginRight="37dp"
-                android:text="Present" />
+                android:layout_marginTop="20dp"
+                android:text="Present"
+                android:textColor="#27d608"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/textView17"
                 android:layout_alignLeft="@+id/textView17"
+                android:layout_alignStart="@+id/textView17"
                 android:layout_alignTop="@+id/textView23"
-                android:text="TextView" />
+                android:layout_marginLeft="18dp"
+                android:text="TextView"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView19"
                 android:layout_alignParentTop="true"
                 android:layout_alignStart="@+id/textView19"
-                android:layout_alignLeft="@+id/textView19"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="87dp"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textColor="@android:color/background_dark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
